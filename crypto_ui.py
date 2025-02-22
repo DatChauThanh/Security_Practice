@@ -13,7 +13,7 @@ class CryptoApp:
         self.root.geometry("600x400")
         self.queue = Queue()
         self.setup_ui()
-        self.cleanup_var = BooleanVar(value=True)
+        # self.cleanup_var = BooleanVar(value=True)
         self.process_active = False
         self.current_stage = ""
         self.cancel_flag = False
